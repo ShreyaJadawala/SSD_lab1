@@ -13,7 +13,6 @@ using System.Threading.Tasks;
 namespace lab1.Controllers
 {
 
-    [Authorize] // Ensure only authenticated users can access the controller
     public class EmployersController : Controller
     {
         private readonly ApplicationDbContext _context;
